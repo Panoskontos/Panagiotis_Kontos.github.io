@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
+#canvas1 {
+  background: black;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  /* width: 760px;
+  height: 1091px; */
+  width: 30%;
+  height: 25%;
+}
+
 :root {
   --main-color: #d3ad7f;
   --black: #13131a;
@@ -270,7 +282,7 @@ section {
   }
 
   #content {
-    margin-left: 50%;
+    /* margin-left: 50%; */
   }
 }
 
@@ -309,7 +321,7 @@ body {
   .home .content {
     /* max-width: 60rem; */
     text-align: center;
-    margin-left: 38%;
+    /* margin-left: 38%; */
   }
 
   .console-container {
@@ -321,7 +333,7 @@ body {
   .home .content {
     /* max-width: 60rem; */
     text-align: center;
-    margin-left: 44%;
+    /* margin-left: 44%; */
   }
 
   .console-container {
@@ -582,8 +594,6 @@ body {
   width: 100%;
 }
 
-
-
 .blogs .box-container .box .content {
   padding: 2rem;
 }
@@ -730,5 +740,37 @@ body {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+}
+
+/* making it responsive */
+
+#mybtn {
+  position: absolute;
+  top: 60%;
+  left: 43%;
+}
+
+@media screen and (max-width: 900px) {
+  #mybtn {
+    position: absolute;
+    top: 60%;
+    left: 39%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #mybtn {
+    position: absolute;
+    top: 60%;
+    left: 36%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #mybtn {
+    position: absolute;
+    top: 60%;
+    left: 33%;
   }
 }
