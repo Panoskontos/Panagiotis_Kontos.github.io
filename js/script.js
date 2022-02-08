@@ -194,7 +194,8 @@ function connect(){
                 ctx.stroke();
               
                 ctx.lineWidth = 1;
-              ctx.strokeStyle = 'black';
+                // line color
+                 ctx.strokeStyle = 'black';
                  ctx.beginPath();
                 ctx.moveTo(mouse.x, mouse.y);
                 ctx.lineTo(particlesArray[b].x, particlesArray[b].y);
