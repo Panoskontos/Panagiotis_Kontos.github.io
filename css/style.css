@@ -279,8 +279,6 @@ section {
     font-size: 24px;
     min-width: 196px;
   }
-
- 
 }
 
 /* testing ----------------------------------------------------*/
@@ -482,6 +480,10 @@ body {
   font-weight: lighter;
   font-size: 1.5rem;
 }
+
+/* .blogs .box-container .box:hover {
+  background: rgb(41, 34, 1);
+} */
 
 .review .box-container {
   display: grid;
